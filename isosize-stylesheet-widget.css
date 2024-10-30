@@ -1,0 +1,32 @@
+body {
+    color: blue;
+}
+.isosize {
+    float: right;
+    height: 350px;
+    padding: 0px 0px 0px 0px;
+    width: 440px;
+    z-index: 99999;
+    position: fixed;
+    right: -440px;
+    top: 25%;
+}
+
+.isosize div {
+    width: 440px;
+}
+
+.upload {
+    float: left;
+    height: 590px;
+    padding: 0px 0px 0px 0px;
+    width: 350px;
+    z-index: 99989;
+    position: fixed;
+    left: -350px;
+    top: 10%;
+}
+
+.upload div {
+    width: 350px;
+}
